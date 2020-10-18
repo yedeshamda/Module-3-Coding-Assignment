@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+#header-nav {
+    background-color: #AAA5A5;
+    border-radius: 0;
+    border: 0;    
+    border: solid black 3px;
+    margin-bottom: 0;
+}
+
+.navbar-brand {       
+    padding-left: 0;  
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+
+.navbar-brand h1 {    
+    font-family: 'Alfa Slab One';
+    font-size: 1.5em;
+    color: black;   
+    margin-top: 0;
+    margin-left: 15px;
+    margin-bottom: 0;
+}
+
+.text-center {
+    font-family: 'Sofia';
+    font-size: 38px;
+    font-weight: bold;
+    position: relative;
+    margin-top: 55px;
+}
+
+#text {       
+    margin: 10px;
+    background-color: #AAA5A5;
+    font-family: 'Alfa Slab One';   
+    position: relative;
+}
+
+
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    text-align: center;
+    color: black;
+    font-family: 'Alfa Slab One';
+    font-weight: 100;
+    background-color: #AAA5A5;
+}
+
+#nav-list a:hover {
+    background-color: #AEAE52;   
+}
+
+.navbar-default .navbar-collapse {
+	margin-top:0px;
+	border: 0px;
+	list-style-type: none;
+}  
